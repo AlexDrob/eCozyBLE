@@ -1,0 +1,102 @@
+<resources>
+    <!-- Application name -->
+    <string name="app_name">eCozy BLE</string>
+    <!-- Strings for main fragment -->
+    <string name="ThermostatName">VIRTUAL THERMOSTAT</string>
+    <string name="ChangeThermostatName">Изменить имя термостат</string>
+    <string name="current_temperature">Текущая температура</string>
+    <string name="degrees">градусов</string>
+    <string name="Settings">НАСТРОЙКИ</string>
+    <string name="Schedule">РАСПИСАНИЕ</string>
+    <string name="UpdateTemperatureSent">запрос обновления температур был отослан</string>
+    <string name="SetGoAwayTemperature"> термостату установлена температура GoAway
+        режима 10 градусов</string>
+    <string name="SetAwayTemperatureDialogTitle">Установить GoAway температуру</string>
+    <!-- Strings for menus at action bar -->
+    <string name="GoAway">GO AWAY</string>
+    <string name="SetReady">Настройка окончена</string>
+    <string name="ScheduleOff">Выключено</string>
+    <string name="ScheduleOn">Включено</string>
+    <string name="AddDays">Добавить расписание на другие дни</string>
+    <string name="EditSchedule">Добавить точку расписания</string>
+    <!-- Strings for first alarm dialog in day schedule fragment -->
+    <string name="FailPointDialogTitle">Невозможно создать точку расписания</string>
+    <string name="ScheduleFullBody">В расписании может быть не больше 10-ти точек</string>
+    <string name="SelectScheduleDayDialogTitle">Применить это расписание для следующих дней:</string>
+    <string name="Monday">Понедельник</string>
+    <string name="Tuesday">Вторник</string>
+    <string name="Wednesday">Среда</string>
+    <string name="Thursday">Четверг</string>
+    <string name="Friday">Пятница</string>
+    <string name="Saturday">Суббота</string>
+    <string name="Sunday">Воскресенье</string>
+    <!-- Strings for second alarm dialog in day schedule fragment -->
+    <string name="SetPointTitle">Добавление точки расписания</string>
+    <string name="SetTimeText">Установите время:</string>
+    <string name="SettHours">Часы:</string>
+    <string name="SetMinutes">Мин:</string>
+    <string name="SetTemperatureText">Установите температуру:</string>
+    <!-- Strings for schedule title on action bar -->
+    <string-array name="schedule_days_array">
+        <item>ВОСКРЕСЕНЬЯ</item>
+        <item>СУББОТЫ</item>
+        <item>ПЯТНИЦЫ</item>
+        <item>ЧЕТВЕРГА</item>
+        <item>СРЕДЫ</item>
+        <item>ВТОРНИКА</item>
+        <item>ПОНЕДЕЛЬНИКА</item>
+    </string-array>
+    <!-- Strings for navigation drawer -->
+    <string name="menu">МЕНЮ</string>
+    <string name="BleDevices">Список устройств</string>
+    <string name="BleDevice">Управление устройством</string>
+    <string-array name="views_array">
+        <item>HOME</item>
+        <item>НАСТРОЙКИ</item>
+        <item>РАСПИСАНИЕ</item>
+        <item>ОТКЛЮЧИТЬСЯ</item>
+        <item>ВЫХОД</item>
+    </string-array>
+    <string name="open_menu">Open</string>
+    <string name="close_menu">Close</string>
+    <!-- Strings for popup menu at navigation drawer -->
+    <string name="forgetThermostat">Забыть</string>
+    <string name="forgetToast">все данные об этом термостате были удалены</string>
+    <!-- Strings for bluetooth turn on alert dialog -->
+    <string name="BLE_on_header">ВКЛЮЧЕНИЕ BLUETOOTH</string>
+    <string name="BLE_on_messageBody">Для работы с приложением необходим включенный Bluetooth.
+        Включить Bluetooth?</string>
+    <string name="dialogOkButton">ДА</string>
+    <string name="dialogCancelButton">НЕТ</string>
+    <!-- Strings for bluetooth turn on progress dialog -->
+    <string name="Progress_BLE_on_header">Bluetooth включается</string>
+    <string name="Progress_BLE_on_mBody">Пожалуйста, подождите</string>
+    <!-- Strings for bluetooth connecting progress dialog -->
+    <string name="Progress_connecting_header">Устанавливается Bluetooth соединение</string>
+    <string name="Progress_connecting_mBody">Пожалуйста, подождите</string>
+    <!-- Strings for settings fragment -->
+    <string name="BatteryLevel">Заряд батареек</string>
+    <string name="FirmwareVersion">Версия ПО термостата</string>
+    <string name="LocalTempCalibr">Изменить температурную калибровку</string>
+    <string name="IdentifyLevel">Find me:</string>
+    <string name="IdentifyOff">Off</string>
+    <string name="IdentifyLowLevel">Low level</string>
+    <string name="IdentifyHighLevel">High level</string>
+    <string name="LockDisplayLevel">Блокировка тача:</string>
+    <string name="LockDisplay_0">Off</string>
+    <string name="LockDisplay_1">запрет регулирования температуры</string>
+    <string name="LockDisplay_2">запрет отображения температуры</string>
+    <!-- Strings for local temperature calibration dialog -->
+    <string name="CalibrationDialogTitle">Установка калибровки температуры</string>
+    <!-- Strings for main schedule fragment -->
+    <string name="scheduleState">РАСПИСАНИЕ</string>
+    <string name="PopupLoad">Загрузить</string>
+    <string name="PopupSave">Сохранить</string>
+    <string name="PopupApply">Применить</string>
+    <!-- Strings for bluetooth connection -->
+    <string name="FailConnectionTitle">Соединение прервано</string>
+    <string name="FailConnectionBody">Bluetooth соединение с термостатом было прервано</string>
+    <string name="FailRead">Чтение данных с термостата не было выполнено</string>
+    <string name="FailWrite">Запись данных в термостат не была выполнена</string>
+    <string name="FailWriteDescriptor">Настройка оповещений от термостата не была вполнена</string>
+</resources>

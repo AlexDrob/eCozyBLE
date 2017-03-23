@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryWhite">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgroundTop">#F4A460</color>
+    <color name="colorBackgroundBottom">#C0C0C0</color>
+    <color name="list_divider">#5e5e5e</color>
+    <color name="list_background">#FFF8DC</color>
+    <color name="drawer_text_color">#000000</color>
+
+    <!-- Colors for schedule view -->
+    <color name="axis_color">#E0E0E0</color>
+    <color name="degree_10">#0288D1</color>
+    <color name="degree_11">#039BE5</color>
+    <color name="degree_12">#03A9F4</color>
+    <color name="degree_13">#29B6F6</color>
+    <color name="degree_14">#4FC3F7</color>
+    <color name="degree_15">#81D4FA</color>
+    <color name="degree_16">#26C6DA</color>
+    <color name="degree_17">#4DD0E1</color>
+    <color name="degree_18">#80DEEA</color>
+    <color name="degree_19">#B2EBF2</color>
+    <color name="degree_20">#C6FF00</color>
+    <color name="degree_21">#A5D6A7</color>
+    <color name="degree_22">#8BC34A</color>
+    <color name="degree_23">#9CCC65</color>
+    <color name="degree_24">#CDDC39</color>
+    <color name="degree_25">#D4E157</color>
+    <color name="degree_26">#DCE775</color>
+    <color name="degree_27">#FBC02D</color>
+    <color name="degree_28">#F9A825</color>
+    <color name="degree_29">#FFA726</color>
+    <color name="degree_30">#FF9800</color>
+    <color name="degree_31">#FB8C00</color>
+    <color name="degree_32">#F57C00</color>
+    <color name="degree_33">#EF6C00</color>
+    <color name="degree_34">#F44336</color>
+    <color name="degree_35">#E53935</color>
+    <color name="degree_36">#D32F2F</color>
+    <color name="degree_37">#C62828</color>
+    <color name="degree_38">#B71C1C</color>
+
+    <!-- Array for schedule view -->
+    <array name="schedule_colors">
+        <item>@color/degree_10</item>
+        <item>@color/degree_11</item>
+        <item>@color/degree_12</item>
+        <item>@color/degree_13</item>
+        <item>@color/degree_14</item>
+        <item>@color/degree_15</item>
+        <item>@color/degree_16</item>
+        <item>@color/degree_17</item>
+        <item>@color/degree_18</item>
+        <item>@color/degree_19</item>
+        <item>@color/degree_20</item>
+        <item>@color/degree_21</item>
+        <item>@color/degree_22</item>
+        <item>@color/degree_23</item>
+        <item>@color/degree_24</item>
+        <item>@color/degree_25</item>
+        <item>@color/degree_26</item>
+        <item>@color/degree_27</item>
+        <item>@color/degree_28</item>
+        <item>@color/degree_29</item>
+        <item>@color/degree_30</item>
+        <item>@color/degree_31</item>
+        <item>@color/degree_32</item>
+        <item>@color/degree_33</item>
+        <item>@color/degree_34</item>
+        <item>@color/degree_35</item>
+        <item>@color/degree_36</item>
+        <item>@color/degree_37</item>
+        <item>@color/degree_38</item>
+    </array>
+
+</resources>

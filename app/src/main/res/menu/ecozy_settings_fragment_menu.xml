@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings_ready"
+        android:icon="@drawable/ready"
+        compat:showAsAction="always"
+        android:title="@string/SetReady">
+    </item>
+</menu>
